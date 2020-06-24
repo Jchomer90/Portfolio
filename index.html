@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>About</title>
 </head>
 
@@ -14,27 +14,31 @@
 <body>
 
     <!-- As a heading -->
-    <nav class="navbar navbar-expand-lg navbar sticky-top navbar sticky-top navbar-dark bg-primary">
-        <a class="navbar-brand navName ml-5">Josh Homer</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <section class="collapse navbar-collapse" id="navbarText">
-            <ul class="nav navbar-nav navbar-right ml-auto">
-                <li><a class="nav-link" href="./index.html">About</a></li>
-                <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="nav-link" href="./contact.html">Contact</a></li>
-            </ul>
-        </section>
-    </nav>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li><a class="nav-link" href="./index.html">About</a></li>
+            <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
     <br>
     <main class="container">
-        <section class="card mt-3 ml-5 border" style="width: 20rem; height: 25rem;">
+        <section class="card mt-3 ml-5 border" style="width: 35%; height: auto;">
             <div class="card-header">
-                <h5 class="card-title">About Me</h5>
+                <h5 class="card-title">Joshua Homer</h5>
             </div>
-            <img src="https://via.placeholder.com/50" class="img-fluid card-img-top" alt="Josh">
+            <img src="images/screenshot.jpeg" class="img-fluid card-img-top" alt="Josh">
 
             <div class="card-body">
                 <br>
